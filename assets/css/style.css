@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+font-family: 'Poppins', sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-padding-top: 4rem;
+scroll-behavior: smooth;
+list-style: none;
+text-decoration: none;
+}
+
+/* variables */
+:root {
+    --main-color: #F1A501;
+    --text-color: #5E6282;
+    --text_heading-color: #14183E;
+    --or-color: #DF6951;
+    --light-color: #DFD7F9;
+    --decore-color: #FFF1DA;
+}
+img {
+    width: 100%;
+}
+/* header */
+header.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 140px;
+    background: transparent;
+}
+.logo {
+    width: 115px;
+    height: 34px;
+}
+.nav_link {
+    color: #212832;
+    font-style: medium;
+    font-size: 17px;
+    line-height: 100%;
+    padding-right: 60px;
+    text-decoration: none;
+}
+.nav_link:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}
+a.nav_btn_sign {
+    padding-right: 60px;
+}
+button.Signup {
+    width: 102px;
+    height: 40px;
+    background: transparent;
+    font-size: 17px;
+    color: #212832;
+    border: 1px solid #212832;
+    border-radius: 5px;
+}
+.translator {
+    color: #212832;
+    text-decoration: none;
+}
+#menu_icon {
+    display: none;
+}
+
+/* home */
+.home {
+    padding-bottom: 100px;
+    min-height: 100vh;
+    width: 100%;
+}
+.home_text {
+    padding-top: 220px;
+}
+.home .title_best {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--or-color);
+    font-style: bold;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+.home h1 {
+    font-family: 'Volkhov';
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 82%;
+    vertical-align: top;
+    color: #181E4B;
+    margin-bottom: 30px;
+}
+.home .title_build {
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: top;
+    margin: 0;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.home_decore2 {
+    width: 370px;
+    height: 12px;
+    position: absolute;
+    top: 318px;
+    left: 376px;
+}
+.home_btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 53px;
+}
+.home_demo {
+    width: 90px;
+    height: auto;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.5px;
+}
+.home .home_btn p {
+    padding-top: 20px;
+    color: #686D77;
+}
+.home button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    line-height: 23px;
+    background-color: var(--main-color);
+    color: white;
+}
+.img_home.col-6.px-0 {
+    width: 765px;
+    height: 765px;
+    position: absolute;
+    top: 107px;
+    left: 610px;
+    z-index: 50;
+}
+.home_decore {
+    width: 737px;
+    height: 872px;
+    position: absolute;
+    top: -40px;
+    left: 736px;
+}
+.home_plane1 {
+    position: absolute;
+    width: 128px;
+    height: 70px;
+    top: 170px;
+    left: 767px;
+}
+.home_plane2 {
+    position: absolute;
+    width: 137px;
+    height: 95px;
+    top: 282px;
+    left: 1229px;
+    z-index: 10;
+}
+
+/* services */
+.services {
+    padding-top: 100px;
+}
+.category {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.services h1 {
+    font-family: 'Volkhov';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64.5px;
+    color: var(--text_heading-color);
+    margin-bottom: 68px;
+}
+.group {
+    width: 153px;
+    height: 166px;
+    position: absolute;
+    top: 966px;
+    left: 1229px;
+}
+.services_card1 {
+    aspect-ratio: 190/227;
+}
+.services_img {
+    width: 66.74px;
+    height: 70px;
+}
+.services_decore1 {
+    width: 50px;
+    height: 49px;
+    position: absolute;
+}
+.services h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+}
+.services .services_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
