@@ -1,0 +1,576 @@
+:root {
+    --main-color: #F1A501;
+    --text-color: #5E6282;
+    --text_heading-color: #14183E;
+    --or-color: #DF6951;
+    --light-color: #DFD7F9;
+    --decore-color: #FFF1DA;
+}
+
+@media (max-width: 1025px) {
+    header.header {
+        padding: 25px 90px !important;
+    }
+    .nav_link {
+        padding-right: 20px !important;
+    }
+    /* home */
+    .home_text {
+        padding: 180px 0 0 135px !important;
+    }
+    .home h1 {
+        font-size: 65px !important;
+    }
+    .home .title_best {
+        font-size: 18px !important;
+    }
+    .home .title_build {
+        font-size: 14px !important;
+        padding-right: 50px !important;
+    }
+    .home_decore2 {
+        width: 340px !important;
+        height: 12px !important;
+        top: 262px !important;
+        left: 340px !important;
+    }
+    .home button {
+        width: 150px !important;
+        height: 50px !important;
+        font-size: 16px !important;
+    }
+    .home_demo {
+        width: 90px !important;
+        height: auto !important;
+        position: relative !important;
+        top: -8px !important;
+    }
+    .home .home_btn p {
+        padding-top: 14px !important;
+    }
+    .home_btn {
+        padding-top: 40px !important;
+    }
+
+    .home_decore {
+        left: 490px !important;
+    }
+    .img_home {
+        max-width: 570px !important;
+        right: 0 !important;
+    }
+    .home_plane1 {
+        top: 135px !important;
+        left: 550px !important;
+    }
+    .home_plane2 {
+        max-width: 110px !important;
+        right: 0 !important;
+        top: 195px !important;
+    }
+
+    /* .services */
+    .services {
+        padding: 80px 0 150px 0 !important;
+    }
+    .group {
+        width: 110px !important;
+        height: 166px !important;
+        top: 785px !important;
+        right: 50px !important;
+    }
+    .services h5 {
+        font-size: 17px !important;
+    }
+    .services_card_decore {
+        top: 220px !important;
+        left: -485px !important;
+    }
+    .services .services_title {
+        font-size: 14px !important;
+    }
+    .services_img {
+        left: 55px !important;
+    }
+    .services_decore1 {
+        left: 120px !important;
+    }
+    .services2_img {
+        left: 15px !important;
+    }
+    .services_decore2 {
+        left: 74px !important;
+    }
+    .services3_img {
+        left: 55px !important;
+    }
+    .services_decore3 {
+        left: 93px !important;
+    }
+    .services4_img {
+        left: 55px !important;
+    }
+    .services_decore4 {
+        left: 108px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav_menu {
+        position: absolute !important;
+        top: 100%;
+        right: 0rem !important;
+        border-radius: .5rem !important;
+        width: 165px !important;
+        background: white !important;
+        border: 1px solid var(--text_heading-color);
+        transform: scale(0) !important;
+        opacity: 0 !important;
+        transform-origin: top right;
+        transition: none;
+        font-size: 18px !important;
+        display: block !important;
+        margin-top: 0px !important;
+        padding-left: 15px !important;
+    }
+    .nav_menu.active {
+        transform: scale(1) !important;
+        opacity: 1 !important;
+        transition: .2s ease-out !important;
+    }
+    #nav-toggle {
+        display: block !important;
+    }
+    /* .home */
+    .home_text {
+        padding: 130px 0 0 100px !important;
+    }
+    .home .title_best {
+        font-size: 13px !important;
+    }
+    .home h1 {
+        font-size: 44px !important;
+    }
+    .home .title_build {
+        font-size: 10px !important;
+    }
+    .home button {
+        width: 115px !important;
+        height: 35px !important;
+        font-size: 13px !important;
+    }
+    .home_demo {
+        width: 70px !important;
+    }
+    .home .home_btn p {
+        padding-top: 6px !important;
+        font-size: 13px !important;
+    }
+    .home_decore2 {
+        width: 220px !important;
+        top: 189px !important;
+        left: 235px !important;
+    }
+    .img_home {
+        max-width: 470px !important;
+        top: 75px !important;
+    }
+    .home_decore {
+        left: 325px !important;
+    }
+    .home_plane1 {
+        top: 120px !important;
+        left: 395px !important;
+        max-width: 90.29px !important;
+    }
+    .home_plane2 {
+        max-width: 75px !important;
+        right: 10px !important;
+        top: 155px !important;
+    }
+
+    /* .services */
+    .services {
+        padding: 30px 0 150px 0 !important;
+    }
+    .category {
+        font-size: 16px;
+    }
+    .services h1 {
+        font-size: 40px !important;
+    }
+    .group {
+        width: 80px !important;
+        top: 662px !important;
+        right: 30px !important;
+    }
+    .services_card1 {
+        margin-top: 30px !important;
+        padding: 60px 40px 40px 40px !important;
+    }
+    .services h5 {
+        font-size: 20px !important;
+    }
+    .services .services_title {
+        font-size: 16px !important;
+    }
+    .services_img {
+        left: 102px !important;
+    }
+    .services_decore1 {
+        top: 90px !important;
+        left: 180px !important;
+    }
+    .services2_img {
+        left: 60px !important;
+    }
+    .services_decore2 {
+        left: 140px !important;
+        top: 53px !important;
+    }
+    .services3_img {
+        left: 100px !important;
+    }
+    .services_decore3 {
+        top: 58px !important;
+        left: 155px !important;
+    }
+    .services4_img {
+        left: 100px !important;
+    }
+    .services_decore4 {
+        left: 170px !important;
+        top: 85px !important;
+    }
+    .services_card_decore {
+        top: -80px !important;
+        left: -11px !important;
+    }
+    /* top */
+    .top h1 {
+        font-size: 40px !important;
+        margin: 0 !important;
+    }
+    .top_card {
+        margin-top: 60px;
+    }
+
+    /* book */
+    .book_title {
+        font-size: 13px !important;
+    }
+    .book_card {
+        margin: 71px 0 0 0 !important;
+        padding: 25px !important;
+    }
+    .circle_invi {
+        width: 200px !important;
+        left: 90px !important;
+    }
+    .book .date {
+        font-size: 14px !important;
+    }
+    .people {
+        font-size: 14px !important;
+        padding: 4px 100px 0 20px !important;
+    }
+
+    /* Testimonials */
+    .up-down {
+        display: none;
+    }
+    .Testimonials_comment {
+        padding: 28px 0 0 34px !important;
+    }
+    .Testimonials_comment1 {
+        padding: 28px 0 0 34px !important;
+    }
+    .comment {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 426px) {
+
+    header.header {
+        padding: 10px 30px !important;
+    }
+    /* .home */
+    .home_text {
+        position: relative !important;
+        top: 130% !important;
+        padding: 0!important;
+        text-align: center;
+    }
+    .home_decore2 {
+        width: 185px !important;
+        top: 58px !important;
+        left: 215px !important;
+    }
+    .home .title_build {
+        font-size: 9px !important;
+        padding: 0px 70px 0 70px !important;
+    }
+    .home_btn {
+        padding-top: 30px !important;
+        justify-content: center;
+    }
+    .home_decore {
+        left: -5px !important;
+    }
+    .home_plane1 {
+        top: 90px !important;
+        left: 35px !important;
+    }
+    .home_plane2 {
+        right: 3px !important;
+        top: 130px !important;
+    }
+
+    /* services */
+    
+    .services {
+        padding: 240px 0 150px 0 !important;
+    }
+    .group {
+        width: 50px !important;
+        top: 880px !important;
+        right: 0 !important;
+    }
+    .services h1 {
+        margin-bottom: 30px !important;
+        font-size: 34px !important;
+    }
+    .services_card1 {
+        padding: 60px 40px 40px 40px !important;
+        margin: 40px !important;
+    }
+    .services .services_title {
+        font-size: 13px !important;
+    }
+    .services_img {
+        left: 90px !important;
+    }
+    .services_decore1 {
+        left: 170px !important;
+    }
+    .services4_img {
+        left: 95px !important;
+    }
+    .services_decore4 {
+        left: 165px !important;
+    }
+    .services_card_decore {
+        top: -560px !important;
+        left: 25px !important;
+    }
+
+    /* .top */
+    .top h1 {
+        font-size: 34px !important;
+    }
+    .top_card {
+        margin: 40px 20px 20px 40px;
+    }
+
+    /* .book */
+    .book h1 {
+        font-size: 40px !important;
+    }
+    .book_card {
+        margin: 71px 0 0 12px !important;
+    }
+    .people {
+        padding: 4px 145px 0 20px !important;
+    }
+    .circle_invi {
+        width: 354px !important;
+        left: 37px !important;
+    }
+
+    /* Testimonials */
+    .Testimonials h1 {
+        font-size: 40px !important;
+    }
+    .Testimonials_comment {
+        margin-right: 20px;
+        padding: 28px 0 0 34px !important;
+    }
+    .Testimonials_comment1 {
+        margin-right: 10px;
+        padding: 28px 0 0 34px !important;
+    }
+    .comment {
+        font-size: 11px !important;
+        margin-bottom: 10px !important;
+    }
+    .name {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 376px) {
+    /* .home */
+    .home_decore2 {
+        width: 185px !important;
+        top: 58px !important;
+        left: 188px !important;
+    }
+    /* .services */
+    .services h1 {
+        font-size: 30px !important;
+    }
+    .services h5 {
+        font-size: 19px !important;
+    }
+    .services .services_title {
+        font-size: 11px !important;
+    }
+    .services_img {
+        left: 65px !important;
+    }
+    .services_decore1 {
+        left: 145px !important;
+    }
+    .services2_img {
+        left: 30px !important;
+    }
+    .services_decore2 {
+        left: 105px !important;
+        top: 60px !important;
+    }
+    .services3_img {
+        left: 66px !important;
+    }
+    .services_decore3 {
+        left: 125px !important;
+    }
+    .services4_img {
+        left: 65px !important;
+    }
+    .services_decore4 {
+        left: 135px !important;
+    }
+    .services_card_decore {
+        top: -535px !important;
+        left: 25px !important;
+    }
+
+    /* top */
+    .top h1 {
+        font-size: 30px !important;
+    }
+    .top_card {
+        margin: 40px 10px 10px 15px;
+    }
+
+    /* .book */
+    .book h1 {
+        font-size: 37px !important;
+    }
+    .circle_invi {
+        width: 320px !important;
+    }
+    .people {
+        padding: 4px 112px 0 20px !important;
+    }
+
+    /* Testimonials */
+
+}
+
+@media (max-width: 321px) {
+    .home_text {
+        top: 115% !important;
+    }
+    .home .title_best {
+        font-size: 11px !important;
+    }
+    .home_decore2 {
+        width: 138px !important;
+        top: 60px !important;
+        left: 182px !important;
+    }
+    .home .title_build {
+        font-size: 9px !important;
+        padding: 0px 40px 0 40px !important;
+    }
+    .home h1 {
+        font-size: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* .services */
+    .services h1 {
+        font-size: 25px !important;
+    }
+    .services_card1 {
+        padding: 55px 40px 40px 40px !important;
+        margin: 20px !important;
+    }
+    .services h5 {
+        font-size: 17px !important;
+    }
+    .services .services_title {
+        font-size: 9px !important;
+    }
+    .services_decore1 {
+        left: 140px !important;
+    }
+    .services_decore2 {
+        left: 105px !important;
+        top: 55px !important;
+    }
+    .services_card_decore {
+        top: -445px !important;
+        left: 15px !important;
+    }
+
+    /* .top */
+    .top h1 {
+        font-size: 25px !important;
+    }
+
+    /* .book */
+    .book h1 {
+        font-size: 30px !important;
+    }
+    .book .book_step {
+        font-size: 14px !important;
+    }
+    .book_title {
+        font-size: 11px !important;
+    }
+    .book_icon {
+        width: 40px !important;
+        margin-top: 5px;
+    }
+    .circle_invi {
+        width: 261px !important;
+    }
+    .book .date {
+        font-size: 13px !important;
+    }
+    .book .by {
+        font-size: 13px !important;
+    }
+    .book_card {
+        margin: 71px 0 0 0 !important;
+        padding: 25px 25px 0 25px !important;
+    }
+    .people {
+        font-size: 13px !important;
+        padding: 4px 75px 0 20px !important;
+        margin: 0;
+    }
+    /* .Testimonials */
+    .name {
+        font-size: 11px !important;
+    }
+    .comment {
+        font-size: 9px !important;
+    }
+    .from {
+        font-size: 9px !important;
+    }
+}
