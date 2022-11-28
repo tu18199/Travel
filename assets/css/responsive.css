@@ -113,6 +113,75 @@
     .services_decore4 {
         left: 108px !important;
     }
+
+    /* .Testimonials */
+    .Testimonials_comment {
+        padding: 28px 0px 0 34px !important;
+    }
+    .Testimonials_comment1 {
+        padding: 28px 0px 0 34px !important;
+    }
+    .comment {
+        font-size: 15px !important;
+    }
+    .up-down {
+        left: 80px !important;
+    }
+
+    /* logos */
+    .logos img {
+        width: 80% !important;
+    }
+    .logos_card1 {
+        top: -11px !important;
+        left: 8% !important;
+    }
+    .logos_card2 {
+        top: -4% !important;
+        left: 1% !important;
+    }
+    .logos_card3 {
+        top: -30% !important;
+        left: 0% !important;
+    }
+    .logos_card4 {
+        top: 32% !important;
+        left: 0% !important;
+    }
+    .logos_card5 {
+        left: 19% !important;
+    }
+
+    /* subscribe */
+    .subscribe_group1 {
+        top: -60% !important;
+        left: -23% !important;
+    }
+    .subscribe_group2 {
+        top: -217% !important;
+        left: 92.3% !important;
+    }
+    .subscribe_group3 {
+        top: -315% !important;
+        left: 117.5% !important;
+    }
+    .subscribe_group4 {
+        max-width: 87px !important;
+        top: -222% !important;
+        left: 118.5% !important;
+    }
+    .subscribe h1 {
+        font-size: 28px !important;
+        margin-bottom: 60px !important;
+    }
+    #form1 {
+        width: 415px !important;
+        font-size: 16px !important;
+    }
+    button.btn-form1 {
+        width: 170px !important;
+        font-size: 16px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -286,6 +355,81 @@
         padding: 28px 0 0 34px !important;
     }
     .comment {
+        font-size: 12px !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* .logos */
+    .logo_item {
+        margin-bottom: 30px !important;
+    }
+    #qantas {
+        margin-left: 120px !important;
+    }
+    .logos_card1 {
+        left: 17% !important;
+    }
+    .logos_card2 {
+        left: 8% !important;
+    }
+    .logos_card3 {
+        left: 9% !important;
+    }
+    .logos_card4 {
+        left: 7% !important;
+    }
+    .logos_card5 {
+        left: 25% !important;
+    }
+
+    /* .subscribe */
+    .subscribe_box {
+        height: 350px !important;
+        padding: 60px 125px 0 125px !important;
+    }
+    .subscribe h1 {
+        font-size: 19px !important;
+        margin-bottom: 50px !important;
+    }
+    #form1 {
+        max-width: 246px !important;
+        height: 55px !important;
+        font-size: 14px !important;
+        padding: 25px 0 25px 20px !important;
+    }
+    button.btn-form1 {
+        width: 110px !important;
+        font-size: 14px !important;
+        height: 55px !important;
+    }
+    .subscribe_group1 {
+        max-width: 350.45px !important;
+        top: -63% !important;
+        left: -26% !important;
+    }
+    .subscribe_group2 {
+        top: -231% !important;
+        left: 82.3% !important;
+    }
+    .subscribe_group3 {
+        max-width: 60px !important;
+        top: -340% !important;
+        left: 119.5% !important;
+    }
+    .subscribe_group4 {
+        max-width: 65px !important;
+        top: -251% !important;
+        left: 121.5% !important;
+    }
+
+    /* site footer */
+    .btn_fb, .btn_insta {
+        margin-right: 10px !important;
+    }
+    .footer_site h4 {
+        font-size: 17px !important;
+    }
+    .footer_site li {
         font-size: 14px !important;
     }
 }
@@ -407,6 +551,82 @@
     .name {
         font-size: 15px !important;
     }
+    .Testimonials_dot {
+        position: absolute;
+        bottom: -420px !important;
+        right: 140px !important;
+    }
+    /* .logos */
+    .logos {
+        padding: 250px 0 100px 0 !important;
+    }
+    #qantas {
+        margin-left: 0 !important;
+    }
+    .logos_card1 {
+        left: 14% !important;
+    }
+    .logos_card2 {
+        left: 4% !important;
+    }
+    .logos_card3 {
+        left: 5% !important;
+    }
+
+    /* .subscribe */
+    .subscribe_box {
+        height: 220px !important;
+        padding: 60px 60px 0 60px !important;
+    }
+    .subscribe h1 {
+        font-size: 12px !important;
+        margin-bottom: 15px !important;
+        line-height: 30px !important;
+    }
+    .subscribe img {
+        width: 80%;
+    }
+    #form1 {
+        max-width: 185px !important;
+        height: 33px !important;
+        font-size: 10px !important;
+        padding: 20px 0 20px 20px !important;
+        margin-right: 10px !important;
+    }
+    button.btn-form1 {
+        width: 80px !important;
+        font-size: 10px !important;
+        height: 40px !important;
+    }
+    .subscribe_group1 {
+        max-width: 250.45px !important;
+        height: 315.19px !important;
+        top: -66% !important;
+        left: -28% !important;
+    }
+    .subscribe_group2 {
+        max-width: 150.8px !important;
+        top: -307% !important;
+        left: 72.3% !important;
+    }
+    .subscribe_group3 {
+        max-width: 50px !important;
+        top: -500% !important;
+        left: 109.5% !important;
+    }
+    .subscribe_group4 {
+        max-width: 50px !important;
+        top: -416% !important;
+        left: 113.5% !important;
+    }
+    
+    /* .footer_site */
+    .footer_site h3 {
+        margin: 20px 0 15px 0 !important;
+    }
+    .btn_item {
+        margin-top: 20px !important;
+    }
 }
 
 @media (max-width: 376px) {
@@ -476,6 +696,71 @@
     }
 
     /* Testimonials */
+    .Testimonials h1 {
+        margin-bottom: 50px !important;
+    }
+    .Testimonials_dot {
+        right: 115px !important;
+    }
+
+    /* .logos */
+    .logo_item {
+        max-width: 150px !important;
+    }
+    .logos img {
+        width: 65% !important;
+    }
+    .logos_card2 {
+        width: 160px !important;
+    }
+    .logos_card1 {
+        left: 7% !important;
+        top: 0 !important;
+    }
+    .logos_card2 {
+        left: 0% !important;
+        top: 10% !important;
+    }
+    .logos_card3 {
+        left: -4% !important;
+        top: -13% !important;
+    }
+    .logos_card4 {
+        left: -5% !important;
+    }
+    .logos_card5 {
+        left: 18% !important;
+    }
+
+    /* .subscribe */
+    .subscribe h1 {
+        font-size: 10px !important;
+        margin-bottom: 30px !important;
+    }#form1 {
+        max-width: 140px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+        padding: 15px 0 15px 20px !important;
+        margin-right: 10px !important;
+    }
+    button.btn-form1 {
+        width: 70px !important;
+        font-size: 10px !important;
+        height: 30px !important;
+    }
+    .subscribe_group1 {
+        max-width: 200.45px !important;
+        top: -50% !important;
+        left: -30% !important;
+    }
+    .subscribe_group2 {
+        max-width: 140.8px !important;
+        top: -310% !important;
+        left: 70.3% !important;
+    }
+    .subscribe_group4 {
+        display: none;
+    }
 
 }
 
@@ -564,6 +849,9 @@
         margin: 0;
     }
     /* .Testimonials */
+    .Testimonials h1 {
+        margin-bottom: 40px !important;
+    }
     .name {
         font-size: 11px !important;
     }
@@ -572,5 +860,64 @@
     }
     .from {
         font-size: 9px !important;
+    }
+    .Testimonials_dot {
+        right: 85px !important;
+    }
+
+    /* .logos */
+    .logos {
+        padding: 250px 0 100px 0 !important;
+    }
+    .logo_item {
+        margin: 20px 20px 20px 72px !important;
+    }
+    #qantas {
+        margin-left: 72px !important;
+    }
+    .logos_card1 {
+        left: 7% !important;
+    }
+    .logos_card2 {
+        left: -3% !important;
+    }
+    .logos_card3 {
+        left: -4% !important;
+    }
+
+    /* .subscribe */
+    .subscribe_box {
+        height: 200px !important;
+        padding: 60px 50px 0 !important;
+    }
+    .subscribe h1 {
+        font-size: 8px !important;
+        margin-bottom: 15px !important;
+        line-height: 23px !important;
+    }
+    .subscribe_group1 {
+        height: auto !important;
+        max-width: 200.45px !important;
+        top: -47% !important;
+        left: -31% !important;
+    }
+    .subscribe_group2 {
+        max-width: 110.8px !important;
+        top: -189% !important;
+        left: 73.3% !important;
+    }
+    .subscribe_group3 {
+        max-width: 45px !important;
+        top: -405% !important;
+        left: 109.5% !important;
+    }
+    #form1 {
+        max-width: 120px !important;
+        font-size: 8px !important;
+        margin-right: 5px !important;
+    }
+    button.btn-form1 {
+        width: 65px !important;
+        font-size: 8px !important;
     }
 }

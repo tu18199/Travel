@@ -82,6 +82,7 @@ button.Signup {
     height: 30px;
     cursor: pointer;
     display: none;
+    padding-top: 5px;
     text-align: center;
     right: 20px;
     position: absolute;
@@ -122,7 +123,7 @@ button.Signup {
     margin: 0;
     font-weight: 500;
     color: var(--text-color);
-    padding-right: 200px;
+    max-width: 477px;
 }
 .home_decore2 {
     width: 370px;
@@ -225,8 +226,8 @@ button.Signup {
     z-index: 30;
 }
 .services_card1:hover {
-    box-shadow: 0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.79);
-    -webkit-box-shadow: 0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.79);
+    box-shadow: 0px 20px 13px 0px rgba(0, 0, 0, 0.01);
+    -webkit-box-shadow: 0px 20px 13px 0px rgba(0, 0, 0, 0.01);
 }
 .services_img {
     width: 66.74px;
@@ -628,7 +629,7 @@ button.Signup {
     left: 25%;
 }
 .logo_item {
-    width: 198px;
+    max-width: 198px;
     height: 86px;
     margin: 0;
 }
@@ -682,30 +683,30 @@ button.btn-form1 {
     border-radius: 10px;
 }
 .subscribe_group1 {
-    width: 389.45px;
+    max-width: 389.45px;
     height: 397.19px;
     position: relative;
     top: -64%;
-    left: -15%;
+    left: -17%;
     opacity: 10%;
 }
 .subscribe_group2 {
-    width: 200.8px;
+    max-width: 200.8px;
     height: 290.88px;
     position: relative;
     top: -221%;
-    left: 94.5%;
+    left: 94.3%;
     opacity: 10%;
 }
 .subscribe_group3 {
-    width: 70px;
+    max-width: 70px;
     height: 70px;
     position: relative;
     top: -315%;
-    left: 111.5%;
+    left: 114.5%;
 }
 .subscribe_group4 {
-    width: 153px;
+    max-width: 153px;
     height: 166px;
     position: relative;
     top: -239%;
