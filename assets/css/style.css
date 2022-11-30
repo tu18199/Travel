@@ -76,7 +76,7 @@ button.Signup {
 #nav-toggle {
     font-size: 20px;
     border-radius: 5px;
-    background: var(--decore-color);
+    background: var(--main-color);
     color:white;
     width: 30px;
     height: 30px;
@@ -665,14 +665,27 @@ button.Signup {
 .input-group {
     justify-content: center;
 }
-#form1 {
-    width: 421px;
+.icon_mail {
     height: 68px;
-    border-radius: 10px;
-    padding: 25px 0 25px 30px;
+    width: 68px;
+    padding: 21px 25px 25px 25px;
+    background: white;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    z-index: 20;
+}
+.form-outline {
+    display: flex;
+}
+#form1 {
+    width: 353px;
+    height: 68px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 25px 0 25px 0;
     margin-right: 24px;
     position: relative;
     z-index: 10;
+    border: none;
 }
 button.btn-form1 {
     width: 180px;

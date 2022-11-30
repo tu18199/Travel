@@ -175,7 +175,7 @@
         margin-bottom: 60px !important;
     }
     #form1 {
-        width: 415px !important;
+        width: 358px !important;
         font-size: 16px !important;
     }
     button.btn-form1 {
@@ -395,7 +395,7 @@
         max-width: 246px !important;
         height: 55px !important;
         font-size: 14px !important;
-        padding: 25px 0 25px 20px !important;
+        padding: 25px 0 25px 5px !important;
     }
     button.btn-form1 {
         width: 110px !important;
@@ -420,6 +420,11 @@
         max-width: 65px !important;
         top: -251% !important;
         left: 121.5% !important;
+    }
+    .icon_mail {
+        height: 55px !important;
+        max-width: 55px !important;
+        padding: 14px 15px 15px 15px !important;
     }
 
     /* site footer */
@@ -587,10 +592,10 @@
         width: 80%;
     }
     #form1 {
-        max-width: 185px !important;
+        max-width: 145px !important;
         height: 33px !important;
         font-size: 10px !important;
-        padding: 20px 0 20px 20px !important;
+        padding: 20px 0 20px 0px !important;
         margin-right: 10px !important;
     }
     button.btn-form1 {
@@ -615,9 +620,14 @@
         left: 109.5% !important;
     }
     .subscribe_group4 {
-        max-width: 50px !important;
-        top: -416% !important;
+        max-width: 35px !important;
+        top: -400% !important;
         left: 113.5% !important;
+    }
+    .icon_mail {
+        height: 40px !important;
+        max-width: 40px !important;
+        padding: 8px 10px 10px 10px !important;
     }
     
     /* .footer_site */
@@ -737,11 +747,16 @@
         font-size: 10px !important;
         margin-bottom: 30px !important;
     }#form1 {
-        max-width: 140px !important;
+        max-width: 115px !important;
         height: 30px !important;
         font-size: 10px !important;
-        padding: 15px 0 15px 20px !important;
+        padding: 15px 0 15px 10px !important;
         margin-right: 10px !important;
+    }
+    .icon_mail {
+        height: 30px !important;
+        max-width: 30px !important;
+        padding: 3px 0px 0px 10px !important;
     }
     button.btn-form1 {
         width: 70px !important;
@@ -912,12 +927,16 @@
         left: 109.5% !important;
     }
     #form1 {
-        max-width: 120px !important;
+        max-width: 95px !important;
         font-size: 8px !important;
         margin-right: 5px !important;
     }
     button.btn-form1 {
-        width: 65px !important;
+        width: 55px !important;
         font-size: 8px !important;
+    }
+    .icon_mail {
+        max-width: 25px !important;
+        padding: 1px 0px 0px 10px !important;
     }
 }
