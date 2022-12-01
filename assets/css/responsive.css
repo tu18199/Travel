@@ -202,6 +202,9 @@
         margin-top: 0px !important;
         padding-left: 15px !important;
     }
+    button.Signup {
+        margin: 10px 0 10px 0 !important;
+    }
     .nav_menu.active {
         transform: scale(1) !important;
         opacity: 1 !important;
@@ -324,7 +327,7 @@
         margin: 0 !important;
     }
     .top_card {
-        margin-top: 60px;
+        margin: 60px 0 0 8px !important;
     }
 
     /* book */
@@ -457,6 +460,9 @@
         padding: 10px 30px !important;
     }
     /* .home */
+    section.home {
+        min-height: 100vh !important;
+    }
     .home_text {
         position: relative !important;
         top: 130% !important;
@@ -489,9 +495,8 @@
     }
 
     /* services */
-    
     .services {
-        padding: 30px 0 100px 0 !important;
+        padding: 250px 0 100px 0 !important;
     }
     .group {
         width: 50px !important;
@@ -531,7 +536,7 @@
         font-size: 34px !important;
     }
     .top_card {
-        margin: 40px 20px 20px 40px;
+        margin: 40px 20px 20px 40px !important;
     }
 
     /* .book */
@@ -575,7 +580,7 @@
     }
     /* .logos */
     .logos {
-        padding: 250px 0 100px 0 !important;
+        padding: 250px 0 50px 0 !important;
     }
     #qantas {
         margin-left: 0 !important;
@@ -813,6 +818,9 @@
     }
 
     /* .services */
+    .services {
+        padding: 150px 0 100px 0 !important;
+    }
     .services h1 {
         font-size: 25px !important;
     }
@@ -841,6 +849,9 @@
     /* .top */
     .top h1 {
         font-size: 25px !important;
+    }
+    .top_card {
+        margin: 40px 10px 10px 10px !important;
     }
 
     /* .book */
