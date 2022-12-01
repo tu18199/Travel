@@ -260,7 +260,7 @@
 
     /* .services */
     .services {
-        padding: 30px 0 150px 0 !important;
+        padding: 30px 0 100px 0 !important;
     }
     .category {
         font-size: 16px;
@@ -316,6 +316,9 @@
         left: -11px !important;
     }
     /* top */
+    .top {
+        padding-bottom: 100px !important;
+    }
     .top h1 {
         font-size: 40px !important;
         margin: 0 !important;
@@ -325,6 +328,9 @@
     }
 
     /* book */
+    .book {
+        padding-bottom: 100px !important;
+    }
     .book_title {
         font-size: 13px !important;
     }
@@ -360,6 +366,9 @@
     }
 
     /* .logos */
+    .logos {
+        padding: 100px 0 100px 0 !important;
+    }
     .logo_item {
         margin-bottom: 30px !important;
     }
@@ -383,6 +392,9 @@
     }
 
     /* .subscribe */
+    .subscribe {
+        padding-bottom: 100px !important;
+    }
     .subscribe_box {
         height: 350px !important;
         padding: 60px 125px 0 125px !important;
@@ -479,7 +491,7 @@
     /* services */
     
     .services {
-        padding: 240px 0 150px 0 !important;
+        padding: 30px 0 100px 0 !important;
     }
     .group {
         width: 50px !important;

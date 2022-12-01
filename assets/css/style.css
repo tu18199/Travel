@@ -91,7 +91,6 @@ button.Signup {
 /* home */
 .home {
     padding-bottom: 100px;
-    min-height: 100vh;
     width: 100%;
 }
 .home_text {
@@ -335,6 +334,7 @@ button.Signup {
     height: 457px;
     border-radius: 24px;
     box-shadow: 0px 100px 50px 0px rgba(0, 0, 0, 0.02);
+    margin-left: 17px;
     -webkit-box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
 }
 .card_img_top {
@@ -689,6 +689,7 @@ button.Signup {
     position: relative;
     z-index: 10;
     border: none;
+    box-shadow: none;
 }
 button.btn-form1 {
     width: 180px;
